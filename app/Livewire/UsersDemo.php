@@ -10,6 +10,7 @@ class UsersDemo extends Component
     public $users;
     public $selectedUserId;
     public $selectedUser;
+    public $graphType;
     public $mermaid;
 
     public function mount()
@@ -17,6 +18,7 @@ class UsersDemo extends Component
         $this->users = User::all();
         $this->selectedUserId = 'all';
         $this->selectedUser = null;
+        $this->graphType = 'graph LR';
     }
 
     public function updatedSelectedUserId($userId)
@@ -37,7 +39,7 @@ class UsersDemo extends Component
             $collection = User::where('id', $this->selectedUserId)->with('posts')->get();
         }
         
-        $this->mermaid = app('mermaid')->generateDiagramFromCollection($collection);
+        $this->mermaid = app('mermaid')->generateDiagramFromCollection($collection, null, $this->graphType);
 
         return view('livewire.users-demo');
     }
