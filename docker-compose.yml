@@ -16,7 +16,6 @@ services:
       - laravel-mermaid-network
     volumes:
       - .:/var/www/html
-      - ../laravel-mermaid:/var/www/laravel-mermaid
     working_dir: /var/www/html
 
 volumes:

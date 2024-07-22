@@ -2,11 +2,11 @@
  
 ## About the Laravel Mermaid package demo
 
-This repository is dedicated to demonstrating the capabilities of the [Laravel Mermaid package](https://github.com/icehouse-ventures/laravel-chartjs), a package that allows you to easily generate Mermaid diagrams in your Laravel applications. Diagram types include flowcharts, user journeys, entity relationship diagrams and mind maps.
+This repository is dedicated to demonstrating the capabilities of the [Laravel Mermaid package](https://github.com/icehouse-ventures/laravel-mermaid), a package that allows you to easily generate Mermaid diagrams in your Laravel applications. Diagram types include flowcharts, user journeys, entity relationship diagrams and mind maps.
 
 ## Quick start with Docker
 
-To run the examples locally via Docker (if you're on MacOS, [use Orbstack](https://orbstack.dev/) to solve file system performance woes!), first build the services:
+To run the examples locally via Docker, first build the services:
 
 ```
 docker-compose build
@@ -35,6 +35,24 @@ When you're done, shut down the services with:
 ```
 ./bin/down
 ```
+
+## Examples
+
+Once running, you'll find the following examples.
+
+#### Basic Mermaid rendering
+
+A basic example rendering your own Mermaid diagram.
+
+![Basic Mermaid diagram](public/screenshot-basic.png)
+
+#### Automatic generation from your Eloquent models
+
+![Generating from Eloquent](public/screenshot-eloquent.png)
+
+#### Livewire example + changing chart types
+
+![Livewire example](public/screenshot-livewire.gif)
 
 ## Contributions
 

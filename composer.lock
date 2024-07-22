@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "aa2c66a316a76302094ed352fcc15978",
+    "content-hash": "7ba57ea494766e0c074ada5cbecccd34",
     "packages": [
         {
             "name": "brick/math",
@@ -1052,11 +1052,17 @@
         },
         {
             "name": "icehouse-ventures/laravel-mermaid",
-            "version": "dev-main",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/icehouse-ventures/laravel-mermaid.git",
+                "reference": "771481c905d22a45e75a82bf03133cac7c573547"
+            },
             "dist": {
-                "type": "path",
-                "url": "/var/www/laravel-mermaid",
-                "reference": "7ef290f4a05bb407dda9262cf8f1558604ce430b"
+                "type": "zip",
+                "url": "https://api.github.com/repos/icehouse-ventures/laravel-mermaid/zipball/771481c905d22a45e75a82bf03133cac7c573547",
+                "reference": "771481c905d22a45e75a82bf03133cac7c573547",
+                "shasum": ""
             },
             "require": {
                 "illuminate/collections": "^6.0 || ^7.0 || ^8.0 || ^9.0 || ^10.0 || ^11.0",
@@ -1078,6 +1084,7 @@
                     "IcehouseVentures\\LaravelMermaid\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1095,10 +1102,11 @@
                 "laravel",
                 "mermaid"
             ],
-            "transport-options": {
-                "symlink": true,
-                "relative": false
-            }
+            "support": {
+                "issues": "https://github.com/icehouse-ventures/laravel-mermaid/issues",
+                "source": "https://github.com/icehouse-ventures/laravel-mermaid/tree/v1.0.1"
+            },
+            "time": "2024-05-24T23:32:29+00:00"
         },
         {
             "name": "laravel/framework",
