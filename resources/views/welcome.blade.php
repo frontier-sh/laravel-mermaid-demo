@@ -37,7 +37,8 @@
 
                                         <ul class="mt-4 text-sm/relaxed" style="list-style: disc; padding: 0 0 0 24px;">
                                             <li><a href="/basic">Basic examples</a></li>
-                                            <li><a href="/from-user-model">Generated from Eloquent collection (User model)</a></li>
+                                            <li><a href="/from-user-model">Generated from Eloquent collection</a></li>
+                                            <li><a href="/livewire-users">Generated from Eloquent collection <span style="background: #fb70a9; padding: 1px 5px; border-radius: 3px; color: #f1f5f9; display: inline-block;">plus Livewire interaction</span></a></li>
                                         </ul>
                                     </div>
                                 </div>
