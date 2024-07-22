@@ -7,6 +7,8 @@
         <title>{{ $title ?? 'Page Title' }}</title>
     </head>
     <body>
-        {{ $slot }}
+        <div style="width: 90%; max-width: 50em; margin: 4em auto 0;">
+            {{ $slot }}
+        </div>
     </body>
 </html>
