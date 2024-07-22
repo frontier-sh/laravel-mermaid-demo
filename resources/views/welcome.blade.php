@@ -39,6 +39,8 @@
                                             <li><a href="/basic">Basic examples</a></li>
                                             <li><a href="/from-user-model">Generated from Eloquent collection</a></li>
                                             <li><a href="/livewire-users">Generated from Eloquent collection <span style="background: #fb70a9; padding: 1px 5px; border-radius: 3px; color: #f1f5f9; display: inline-block;">plus Livewire interaction</span></a></li>
+                                            <li><a href="/livewire-depth">Exploring depth <span style="background: #fb70a9; padding: 1px 5px; border-radius: 3px; color: #f1f5f9; display: inline-block;">via Livewire</span></a></li>
+                                            <li><a href="/livewire-verbosity">Increasing verbosity <span style="background: #fb70a9; padding: 1px 5px; border-radius: 3px; color: #f1f5f9; display: inline-block;">via Livewire</span></a></li>
                                         </ul>
                                     </div>
                                 </div>
