@@ -54,6 +54,14 @@ A basic example rendering your own Mermaid diagram.
 
 ![Livewire example](public/screenshot-livewire.gif)
 
+#### Livewire example visualising depth 
+
+![Livewire example visualising depth](public/screenshot-depth.gif)
+
+#### Livewire example increasing verbosity
+
+![Livewire example increasing verbosity](public/screenshot-verbosity.gif)
+
 ## Contributions
 
 Contributions are welcome! If you have any improvements or additional examples, please feel free to submit a pull request.
