@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Install composer deps
+docker-compose run apache composer install
+
+# Generate key
+docker-compose run apache php artisan key:generate
