@@ -4,9 +4,18 @@
     "description": "The skeleton application for the Laravel framework.",
     "keywords": ["laravel", "framework"],
     "license": "MIT",
+    "repositories": [
+        {
+            "type": "path",
+            "url": "/var/www/laravel-mermaid",
+            "options": {
+                "symlink": true
+            }
+        }
+    ],
     "require": {
         "php": "^8.2",
-        "icehouse-ventures/laravel-mermaid": "^1.0",
+        "icehouse-ventures/laravel-mermaid": "*",
         "laravel/framework": "^11.9",
         "laravel/tinker": "^2.9"
     },
@@ -61,6 +70,6 @@
             "php-http/discovery": true
         }
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true
 }

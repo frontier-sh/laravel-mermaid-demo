@@ -7,3 +7,5 @@ Route::get('/', function () {
 });
 
 Route::get('/basic', 'App\Http\Controllers\BasicExampleController@show');
+
+Route::get('/from-user-model', 'App\Http\Controllers\UserController@show');

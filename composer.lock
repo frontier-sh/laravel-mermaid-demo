@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "da6199441104da32760565dbc76315aa",
+    "content-hash": "b3a9b5772e1a5caa7a84d807bd1500db",
     "packages": [
         {
             "name": "brick/math",
@@ -1052,17 +1052,11 @@
         },
         {
             "name": "icehouse-ventures/laravel-mermaid",
-            "version": "v1.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/icehouse-ventures/laravel-mermaid.git",
-                "reference": "771481c905d22a45e75a82bf03133cac7c573547"
-            },
+            "version": "dev-main",
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/icehouse-ventures/laravel-mermaid/zipball/771481c905d22a45e75a82bf03133cac7c573547",
-                "reference": "771481c905d22a45e75a82bf03133cac7c573547",
-                "shasum": ""
+                "type": "path",
+                "url": "/var/www/laravel-mermaid",
+                "reference": "771481c905d22a45e75a82bf03133cac7c573547"
             },
             "require": {
                 "illuminate/collections": "^6.0 || ^7.0 || ^8.0 || ^9.0 || ^10.0 || ^11.0",
@@ -1084,7 +1078,6 @@
                     "IcehouseVentures\\LaravelMermaid\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1102,11 +1095,10 @@
                 "laravel",
                 "mermaid"
             ],
-            "support": {
-                "issues": "https://github.com/icehouse-ventures/laravel-mermaid/issues",
-                "source": "https://github.com/icehouse-ventures/laravel-mermaid/tree/v1.0.1"
-            },
-            "time": "2024-05-24T23:32:29+00:00"
+            "transport-options": {
+                "symlink": true,
+                "relative": false
+            }
         },
         {
             "name": "laravel/framework",
@@ -7878,7 +7870,7 @@
         }
     ],
     "aliases": [],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,

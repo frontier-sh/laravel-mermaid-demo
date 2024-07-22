@@ -37,6 +37,7 @@
 
                                         <ul class="mt-4 text-sm/relaxed" style="list-style: disc; padding: 0 0 0 24px;">
                                             <li><a href="/basic">Basic examples</a></li>
+                                            <li><a href="/from-user-model">Generated from Eloquent collection (User model)</a></li>
                                         </ul>
                                     </div>
                                 </div>
