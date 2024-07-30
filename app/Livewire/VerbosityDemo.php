@@ -2,6 +2,7 @@
 
 namespace App\Livewire;
 
+use IcehouseVentures\LaravelMermaid\Facades\Mermaid;
 use App\Models\Entity;
 use Livewire\Component;
 use Illuminate\Support\Collection;
@@ -29,7 +30,7 @@ class VerbosityDemo extends Component
         $chart = $this->generateNodes($filteredEntities);
         
         // Finally, generate a diagram from that data
-        $this->mermaid = app('mermaid')->generateDiagramFromArray($chart, 'graph LR;');
+        $this->mermaid = Mermaid::build()->generateDiagramFromArray($chart, 'graph LR;');
 
         return view('livewire.verbosity-demo');
     }

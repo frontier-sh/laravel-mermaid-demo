@@ -2,6 +2,7 @@
 
 namespace App\Livewire;
 
+use IcehouseVentures\LaravelMermaid\Facades\Mermaid;
 use Livewire\Component;
 use App\Models\User;
 
@@ -39,7 +40,7 @@ class UsersDemo extends Component
             $collection = User::where('id', $this->selectedUserId)->with('posts')->get();
         }
         
-        $this->mermaid = app('mermaid')->generateDiagramFromCollection($collection, null, $this->graphType);
+        $this->mermaid = Mermaid::build()->generateDiagramFromCollection($collection, null, $this->graphType);
 
         return view('livewire.users-demo');
     }

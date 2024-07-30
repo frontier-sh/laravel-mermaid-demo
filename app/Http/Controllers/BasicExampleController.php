@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use IcehouseVentures\LaravelMermaid\Facades\Mermaid;
 
 class BasicExampleController extends Controller
 {
@@ -14,7 +15,7 @@ class BasicExampleController extends Controller
             'C-->D',
         ];
         
-        $mermaid = app('mermaid')->generateDiagramFromArray($data);
+        $mermaid = Mermaid::build()->generateDiagramFromArray($data);
 
         return view('basic', compact('mermaid'));
     }

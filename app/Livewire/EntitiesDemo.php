@@ -2,6 +2,7 @@
 
 namespace App\Livewire;
 
+use IcehouseVentures\LaravelMermaid\Facades\Mermaid;
 use Livewire\Component;
 use App\Models\Entity;
 
@@ -20,7 +21,7 @@ class EntitiesDemo extends Component
         }])->whereNull('parent_id')->get();
         
         // Generate a Mermaid diagram automatically from the collection
-        $this->mermaid = app('mermaid')->generateDiagramFromCollection($this->entities);
+        $this->mermaid = Mermaid::build()->generateDiagramFromCollection($this->entities);
 
         return view('livewire.entities-demo');
     }
